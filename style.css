@@ -79,9 +79,14 @@ button, select {
 
 
 .timer {
-    font-size: 100px;
-    margin-top: 50px;
-    color: #FF5733;
+    display: block;
+    text-align: center;
+    color: #ff0000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4vh;
+    margin-top: 20px;
+    font-weight: 700;
+    text-shadow: 4px 4px black;
 }
 
 /*  RESPONSIVIDADE  */
@@ -90,5 +95,15 @@ button, select {
   body{
     background-image: url(wallpapermobile.jpg);
   }
+
+  .timer {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3vh;
+    margin-top: 20px;
+}
+
 
 }
