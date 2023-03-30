@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body {
+  background: #f8f8f8;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  background-image: url(wallpaperpc.jpg);
+}
+
+p{
+  background-color: #159765c0;
+  padding: 10px 10px 10px 10px;
+  color: #f8f8f8;
+  box-shadow: 3px 3px white;
+  border-radius: 30px;
+}
+
+h1 {
+    color: #159765c0;
+    margin-top: 50px;
+    font-size: 6vh;
+    text-shadow: 2px 2px black;
+}
+label {
+    margin-bottom: 10px;
+    color: #f8f8f8;
+    font-style: oblique;
+    font-size: 2vh;
+    display: block;
+}
+
+
+
+button, select {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  select {
+    appearance: none;
+    background: #159765;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  button {
+    background: #ff7f50;
+    box-shadow: 0 5px #cc5533;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background: #cc5533;
+    box-shadow: 0 3px #cc5533;
+    transform: translateY(2px);
+  }
+  
+  select:hover {
+    background: #ff7f50;
+  }
+  
+  button:focus,
+  select:focus {
+    outline: none;
+  }
+  
+
+
+.timer {
+    font-size: 100px;
+    margin-top: 50px;
+    color: #FF5733;
+}
+
+/*  RESPONSIVIDADE  */
+
+@media (max-width: 760px) {
+  body{
+    background-image: url(wallpapermobile.jpg);
+  }
+
+}
